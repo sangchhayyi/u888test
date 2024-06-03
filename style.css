@@ -1,0 +1,1051 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Be Vietnam Pro";
+}
+.container-fluid{
+    width: 100%;
+    height: 320vh;
+    background-image: url("./image/10041.webp");
+    background-color: black;
+    position: relative;
+}
+.container-fluid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container-fluid .banner{
+    border: 2px solid gray;
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    border-radius: 3px; 
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.banner .logo{
+    height: 100%;
+}
+.logo img{
+    background-color: white;
+}
+.banner ul{
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    gap: 10px;
+}
+.banner .navbar-toggle{
+    display: none;
+    border: 2px solid rgb(236, 23, 23);
+    color: rgb(236, 23, 23);
+    border-radius: 5px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav-button button{   
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.container-fluid .banner1{
+    background-color: rgb(235, 81, 26);
+}
+.banner1 ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.banner1 a{
+    color: white;
+    text-decoration: none;
+}
+.container-fluid .image{
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.image .image-box {
+    border-radius: 50px; 
+    overflow: hidden;
+}
+.container-fluid .image-slide{
+    background-color: brown; 
+    border-radius: 30px;
+    overflow: hidden;
+    border: 4px solid rgb(223, 196, 46);
+}
+.container-fluid .pic{
+    display: flex; 
+    justify-content: space-between;
+}
+.pic .pic-box{
+    width: 32%;
+    height: 100%;
+    background-color: bisque;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 3px solid rgb(204, 190, 108);
+}
+.container-fluid .image2{
+    border-radius: 20px;
+    border: 3px solid rgb(199, 30, 30);
+    overflow: hidden;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.image2 .content{
+   
+    padding: 20px 30px;
+}
+.image2 .content2{
+    
+    height: 100%;
+}
+.content2 .other{
+    display: none;
+    width: 100%;
+    height: 77%;
+}
+.other p{
+    color: black;
+}
+.content2 .active{
+    display: block;
+}
+.image2-box{
+    padding: 10px 10px;
+}
+.choose button{
+    border: 3px solid orangered;
+    border-radius: 50px;
+    margin: 20px 10px;
+    background-color: white;
+}
+.choose img{
+    width: 100%;
+    height: 60%;
+}
+.btn1:hover{
+    background-color:rgb(182, 49, 1) ;
+}
+.other-box a{
+    text-decoration: none;
+    color: black;
+}
+.container-fluid .pic3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.pic3 .option{
+    width: 48%;
+    height: 30%;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 3px solid rgb(212, 62, 7);
+}
+.container-fluid .pic4{
+    padding: 30px 50px;
+}
+.container-fluid .social{
+    width: 100%;
+    background-color:rgb(231, 69, 10);
+    display: flex;
+}
+.social .social-box{
+   padding: 30px 0px;
+}
+.social-box h6,p{
+    padding: 25px 10px;
+    color: white;
+}
+.social-box .caption{
+
+    height: 100%;
+    padding: 0px 15px;
+}
+
+
+@media (max-width:575px){
+    .container-fluid{
+        height: 270vh;
+    }
+    .banner{
+        width: 100%;
+        height: 50px;
+        margin: 0px 0px;
+        position: relative;
+    }
+    .banner .logo{
+        width: 180px;
+    }
+    .nav-button button{
+        display: none;
+    }
+    .banner ul{
+       position: absolute;
+       background-color: white;
+       width: 90%;
+       display: inline-block;
+       height: 300px;
+       transition: all 0.3s linear;
+       z-index: 100;
+       top: 50px;
+       overflow-y: hidden;
+       margin: 0px 13px;
+    }
+    .banner li{
+        color: white;
+        font-size:10px ;
+        margin: 20px 10%;
+    }
+    .banner .navbar-toggle{
+        display: block;
+        margin-left: 50%;
+        margin-top: 3px;
+        width: 40px;
+        height: 40px;
+    }
+    .banner1{
+        width: 90%;
+        margin: 20px 20px;
+        height: 40px;
+        border-radius: 50px;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+    .banner1 img{
+        width: 40px ;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .d{
+        margin: 10px 20%;
+    }
+    .image{
+        width: 90%;
+        height: 200px;
+        margin: 20px 20px;
+    }
+    .image .image-box{
+        width: 48%;
+        height: 33%;
+        margin: 5px 0px;
+    }
+    .image-slide{
+        width: 90%;
+        height: 240px;
+        margin: 20px 20px;
+    }
+    .pic{
+        width: 90%;
+        height: 100px;
+        margin: 20px 20px;
+    }
+    .image2{
+        width: 90%;
+        height: 600px;
+        margin: 20px 20px;
+        flex-direction: column;
+        
+    }
+    .content{
+        width: 100%;
+        height: 10%;
+    }
+    .content2{
+        width: 100%;
+        margin: 10px 0px;
+       
+        
+    }
+    .image2-box{
+        width: 85%;
+        height: 15%;
+       
+    }
+    
+    .choose{
+        width: 100%;
+        height: 100%;
+    }
+    .choose button{
+        width: 18%;
+        height: 100%;
+        
+    }
+    .choose img{
+        width: 65%;
+        height: 83%;
+        margin-bottom: 25%;
+        
+    }
+    .other-box{
+        height: 20%;
+        margin: 20px 10px;
+    }
+    .other-box img{
+        width: 25%;
+        height: 100%;
+        
+    }
+    .other p{
+        color: black;
+        font-size: 13px;
+    }
+    .other-box a{
+        font-size: 13px;
+    }
+    .pic2{
+        width: 90%;
+        height: 100px;
+        margin: 20px 20px;
+        padding: 10px 0px;
+    }
+    .pic3{
+        width: 90%;
+        height: 400px;
+        margin: 20px 20px;
+    }
+    .pic4{
+        width: 90%;
+        height: 220px;
+        margin: 20px 20px;
+        padding: 0px 40px; 
+    }
+    .ab{
+        padding:15px 20px;
+    }
+    .social{
+        height: 1000px;
+        flex-direction: column;
+    }
+    .social-box{
+        width: 85%;
+        height: 100%;
+        margin: 0px 40px;
+    }
+    .a{
+        width:100px ;
+        height: 50px;
+    }
+    .b{
+        width: 55%;
+        height:40px ;
+    }
+    .c{
+        width: 70%;
+    }
+  
+}
+@media (min-width:576px) and (max-width:767px){
+    .container-fluid{
+        height: 305vh;
+    }
+    .banner{
+        width: 100%;
+        height: 50px;
+        margin: 0px 0px;
+    }
+    .banner .logo{
+        width: 200px;
+        height: 83%;
+    }
+    .nav-button button{
+        display: none;
+    }
+    .banner ul{
+        position: absolute;
+        background-color: white;
+        width: 90%;
+        display: inline-block;
+        height: 300px;
+        transition: all 0.3s linear;
+        z-index: 100;
+        top: 50px;
+        overflow-y: hidden;
+        margin: 0px 20px;
+     }
+     .banner li{
+         color: white;
+         font-size:10px ;
+         margin: 20px 10%;
+     }
+    .banner .navbar-toggle{
+        display: block;
+        margin-left: 70%;
+        margin-top: 3px;
+        width: 40px;
+        height: 40px;
+    }
+    .banner1{
+        width: 90%;
+        margin: 20px 20px;
+        height: 40px;
+        border-radius: 50px;
+        font-size: 15px;
+        justify-content: space-between;
+    }
+    .banner1 img{
+        width: 40px ;
+        height: 40px;
+        border-radius: 50%;
+    }
+    .d{
+        margin: 10px 30%;
+    }
+    .image{
+        width: 90%;
+        height: 300px;
+        margin: 20px 20px;
+    }
+    .image .image-box{
+        width: 49%;
+        height: 30%;
+        margin: 5px 0px;
+    }
+    .image-slide{
+        width: 90%;
+        height: 300px;
+        margin: 20px 20px;
+    }
+    .pic{
+        width: 90%;
+        height: 150px;
+        margin: 20px 20px;
+        
+    }
+    .image2{
+        width: 90%;
+        height: 620px;
+        margin: 20px 20px;
+        flex-direction: column;
+        
+    }
+    .content{
+        width: 100%;
+        height: 10%;
+    }
+    .content2{
+        width: 100%;
+        margin: 10px 0px;
+       
+        
+    }
+    .image2-box{
+        width: 80%;
+        height: 15%;
+       
+    }
+    
+    .choose{
+        width: 100%;
+        height: 100%;
+    }
+    .choose button{
+        width: 20%;
+        height: 100%;
+        
+    }
+    .choose img{
+        width: 55%;
+        height: 80%;
+        margin-bottom: 12%;
+        
+    }
+    
+    .other-box{
+        height: 20%;
+        margin: 20px 10px;
+    }
+    .other-box img{
+        width: 25%;
+        height: 100%;
+        
+    }
+    .other p{
+        color: black;
+    }
+    .other-box a{
+        font-size: 13px;
+    }
+    .pic2{
+        width: 90%;
+        height: 100px;
+        margin: 25px 20px;
+        padding: 10px 0px;
+    }
+    .pic3{
+        width: 90%;
+        height: 530px;
+        margin: 20px 20px;
+    }
+    .pic4{
+        width: 85%;
+        height: 280px;
+        margin: 20px 20px;
+        padding: 0px 40px; 
+    }
+    .ab{
+        padding:20px 20px;
+    }
+    .social{
+        height: 950px;
+        flex-direction: column;
+    }
+    .social-box{
+        width: 85%;
+        height: 100%;
+        margin: 0px 40px;
+    }
+    .a{
+        width:170px ;
+        height: 75px;
+        margin: 5px 0px;
+    }
+    .b{
+        width: 38%;
+        height:40px ;
+    }
+    .caption{
+        width: 30%;
+    }
+    .c{
+        width: 40%;
+    }
+    .caption p{
+        font-size: 13px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .banner{
+        width: 100%;
+        height: 55px;
+        margin: 0px 0px;
+        padding: 0px 20px;
+    }
+    .banner .logo{
+        width: 160px;
+        height: 80%;
+        margin: 3px 0px;
+    }
+    .nav-button button{
+        display: block;
+    }
+    .banner ul{
+        display: block;
+        margin: 20px 0px;
+        display: flex;
+        font-size: 10px;
+    }
+    .banner .navbar-toggle{
+        display: none;
+    }
+    .nav-button{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        gap: 5px;
+        font-size: 10px;
+        margin: 10px 5px;
+    } 
+    .nav-button button{
+        width: 100%;
+        height: 30px;
+    }
+    .banner1{
+        width: 90%;
+        margin: 20px 20px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    .d{
+        margin: 5px 0px;
+    }
+    .banner1 img{
+        width: 50px ;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 90%;
+        height: 320px;
+        margin: 20px 20px;
+    }
+    .image .image-box{
+        width: 49%;
+        height: 30%;
+        margin: 10px 0px;
+    }
+    .image-slide{
+        width: 90%;
+        height: 410px;
+        margin: 20px 20px;
+    }
+    .pic{
+        width: 90%;
+        height: 180px;
+        margin: 20px 20px;
+    }
+    .image2{
+        width: 90%;
+        height: 620px;
+        margin: 20px 20px;
+    }
+    .content{
+        width: 35%;
+    }
+    .content2{
+        width: 65%;
+    }
+    .image2-box{
+        width: 100%;
+        height: 18%;
+    }
+    .other p{
+        color: black;
+        font-size: 15px;
+    }
+    .choose{
+        width: 100%;
+        height: 40%;
+        margin-top: 35%;
+    }
+    .choose button{
+        width: 100%;
+        height: 24%;
+        
+    }
+    .choose img{
+        width: 70%;
+        height: 60%;
+    }
+    .other-box{
+        width: 100%;
+        height: 30%;
+        padding: 20px 20px;
+    }
+    .other-box img{
+        width: 30%;
+        height: 100%;
+        
+    }
+    .other-box a{
+        font-size: 13px;
+        margin: 0px 10px;
+    }
+    .pic2{
+        width: 90%;
+        height: 150px;
+        margin: 25px 20px;
+        padding: 10px 0px;
+    }
+    .pic3{
+        width: 90%;
+        height: 700px;
+        margin: 20px 20px;
+    }
+    .pic4{
+        width: 83%;
+        height: 350px;
+        margin: 2px 33px;
+        padding: 0px 40px; 
+    }
+    .ab{
+        padding:20px 20px;
+    }
+    .ac{
+        margin: 20px 33px;
+        height: 160px;
+    }
+    .social{
+        height: 650px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .h{
+        width: 100%;
+        height: 30%;
+       margin: 0px 30px;
+    }
+    .j{
+        width: 50%;
+        height: 60%;
+        
+    }
+    .a{
+        width:170px ;
+        height: 75px;
+       
+    }
+    .b{
+        width: 28%;
+        height:43px ;
+    }
+    .caption{
+        width: 40%;
+    }
+    .c{
+        width: 60%;
+    }
+    .caption p{
+        font-size: 13px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .container-fluid{
+        height: 300vh;
+    }
+    .banner{
+        width: 100%;
+        height: 60px;
+        margin: 0px 0px;
+        padding: 0px 40px;
+    }
+    .banner .logo{
+        width: 140px;
+        height: 68%;
+        margin: 5px 0px;
+    }
+    .nav-button button{
+        display: block;
+    }
+    .banner ul{
+        display: block;
+        margin: 20px 0px;
+        display: flex;
+        font-size: 15px;
+    }
+    .banner .navbar-toggle{
+        display: none;
+    }
+    .nav-button{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        gap: 5px;
+        font-size: 15px;
+        margin: 10px 5px;
+    } 
+    .nav-button button{
+        width: 100%;
+        height: 40px;
+    }
+    .banner1{
+        width: 80%;
+        margin: 50px 10.5%;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .d{
+        margin: 5px 0px;
+    }
+    .banner1 img{
+        width: 50px ;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 80%;
+        height: 200px;
+        margin: 20px 10.5%;
+    }
+    .image .image-box{
+        width: 32%;
+        height: 42%;
+        margin: 10px 0px;
+    }
+    .image-slide{
+        width: 80%;
+        height: 450px;
+        margin: 20px 10.5%;
+    }
+    .pic{
+        width: 80%;
+        height: 200px;
+        margin: 20px 10.5%;
+    }
+    .image2{
+        width: 80%;
+        height: 580px;
+        margin: 20px 10.5%;
+    }
+    .image2 .content{
+        width: 30%;
+        height: 100%;
+    }
+    .content2{
+        width: 65%;
+    }
+    .image2-box{
+        width: 100%;
+        height: 20%;
+    }
+    .choose{
+        width: 100%;
+        height: 60%;
+        margin-top: 19%;
+    }
+    .other p{
+        color: black;
+        font-size: 15px;
+    }
+    .choose button{
+        width: 100%;
+        height: 18%;
+        
+    }
+    .choose img{
+        width: 70%;
+        height: 60%;
+    }
+    .other-box{
+        width: 100%;
+        height: 30%;
+        padding: 20px 20px;
+    }
+    .other-box img{
+        width: 23%;
+        height: 100%;
+        
+    }
+    .other-box a{
+        font-size: 13px;
+        margin: 0px 10px;
+    }
+    .pic2{
+        width: 80%;
+        height: 150px;
+        margin: 20px 10.5%;
+        padding: 10px 0px;
+    }
+    .pic3{
+        width: 80%;
+        height: 800px;
+        margin: 20px 10.5%;
+    }
+    .pic4{
+        width: 70%;
+        height: 360px;
+        margin: 0px 12.5%;
+        padding: 0px 30px; 
+    }
+    .ab{
+        padding:20px 20px;
+    }
+    .ac{
+        margin: 20px 10.5%;
+        height: 160px;
+    }
+    .social{
+        height: 400px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 10%;
+    }
+    .social-box{
+        width: 33%;
+        height: 100%;
+        font-size: 13px;
+    }
+    .a{
+        width:150px ;
+        height: 70px;
+       
+    }
+    .b{
+        width: 90%;
+        height:47px ;
+    }
+    .caption{
+        width: 60%;
+    }
+    .c{
+        width: 90%;
+    }
+    
+}
+@media(min-width:1200px){
+    .banner{
+        width: 50%;
+        margin: 10px 22.5%;
+        height: 60px;
+        padding: 0px 40px;
+    }
+    .banner .logo{
+        width: 150px;
+        height: 70%;
+        margin: 7px 0px;
+    }
+    .nav-button button{
+        display: block;
+    }
+    .banner ul{
+        display: block;
+        margin: 20px 0px;
+        display: flex;
+        font-size: 13px;
+    }
+    .banner .navbar-toggle{
+        display: none;
+    }
+    .nav-button{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        gap: 5px;
+        font-size: 15px;
+        margin: 10px 5px;
+    } 
+    .nav-button button{
+        width: 100%;
+        height: 40px;
+    }
+    .banner1{
+        width: 50%;
+        margin: 50px 22.5%;
+        height: 50px;
+        border-radius: 10px;
+        font-size: 23px;
+        display: flex;
+        justify-content: center;
+    }
+    .d{
+        margin: 9px 0px;
+    }
+    .banner1 img{
+        width: 50px ;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .image{
+        width: 50%;
+        height: 250px;
+        margin: 20px 22.5%;
+    }
+    .image .image-box{
+        width: 32.5%;
+        height: 41%;
+        margin: 15px 0px;
+    }
+    .image-slide{
+        width: 50%;
+        height: 620px;
+        margin: 20px 22.5%;
+    }
+    .pic{
+        width: 50%;
+        height: 200px;
+        margin: 20px 22.5%;
+    }
+    .image2{
+        width: 50%;
+        height: 580px;
+        margin: 20px 22.5%;
+        /* flex-direction: column; */
+        position: relative;
+    }
+    .image2 .content{
+        width: 30%;
+        height: 100%;
+    }
+    .image2-box{
+        width: 100%;
+        height: 22%;
+    }
+    .choose{
+        width: 100%;
+        height: 40%;
+        padding: 0px 20px;
+        margin-top: 50px;
+    }
+    .choose button{
+        width: 100%;
+        height: 24%;
+        
+    }
+    .choose img{
+        width: 60%;
+        height: 62.5%;
+    }
+    .other-box{
+        width: 100%;
+        height: 30%;
+        padding: 20px 20px;
+    }
+    .other-box img{
+        width: 23%;
+        height: 100%;
+        
+    }
+    
+    .other-box a{
+        font-size: 15px;
+        margin: 0px 20px;
+    }
+    .pic2{
+        width: 40%;
+        height: 200px;
+        margin: 20px 27.5%;
+        padding: 10px 0px;
+    }
+    .pic3{
+        width: 50%;
+        height: 900px;
+        margin: 20px 22.5%;
+    }
+    .pic4{
+        width: 40%;
+        height: 445px;
+        margin: 0px 27.5%;
+        padding: 0px 30px; 
+    }
+    .ab{
+        padding:20px 20px;
+    }
+    .ac{
+        margin: 20px 22.5%;
+        height: 200px;
+    }
+    .social{
+        height: 420px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0px 22.5%;
+    }
+    .social-box{
+        width: 28%;
+        height: 100%;
+        font-size: 15px;
+    }
+    .a{
+        width:150px ;
+        height: 70px;
+       
+    }
+    .b{
+        width: 85%;
+        height:55px ;
+    }
+    .caption{
+        width: 60%;
+    }
+    .c{
+        width: 80%;
+    }
+    
+}
